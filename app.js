@@ -57,7 +57,7 @@ function sortearAmigo() {
      if (listaDeNombres.length === 0) {
         alert ("No hay amigos para sortear, agrege al menos uno primero");
         //cambia el "h2"
-        titulo.innerText = "Por favor ingrese un número primero"
+        titulo.innerText = "Por favor ingrese al menos un nombre primero"
         //establece el tiempo de retorno
         setTimeout(() => {
             titulo.innerText = textoOriginalh2;
