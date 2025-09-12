@@ -2,7 +2,7 @@
 
 Es una aplicación web sencilla para organizar un **sorteo de amigo secreto**. Permite ingresar nombres en una lista, mostrarlos en pantalla y seleccionar al azar un amigo secreto.
 
-# Enlace directo a la página:
+# Enlace directo a la demo:
 
 - https://MrCopixt0.github.io/challenge-amigo-secreto/
 
