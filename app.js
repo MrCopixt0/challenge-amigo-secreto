@@ -80,3 +80,4 @@ function reiniciarLista() {
     document.getElementById("resultado").innerHTML = "";
     document.getElementById("amigo").value = "";
 }
+//Con esto todo esta finalizado
