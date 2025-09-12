@@ -27,6 +27,7 @@ function agregarAmigo() {
         //agregamos el nombre a la lista y limpiamos el campo
     listaDeNombres.push(nombre)
     document.getElementById("amigo").value="";
+    mostrarLista();
     }
 }
 
@@ -40,6 +41,6 @@ function mostrarLista() {
     for (let a = 0; a < listaDeNombres.length;a++) {
         const li = document.createElement("li");
         li.innerText = listaDeNombres[a];
-        listaDeAmigos.appendChild[li];
+        listaDeAmigos.appendChild(li);
     }
 }
