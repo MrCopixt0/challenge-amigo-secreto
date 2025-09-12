@@ -50,7 +50,6 @@ function mostrarLista() {
 //Implementa una función para sortear los amigos
 
 function sortearAmigo() {
-    let nombre = document.getElementById("amigo").value;
     let titulo = document.getElementById("encabezado2");
     let textoOriginalh2 = "Digite el nombre de sus amigos"
 
