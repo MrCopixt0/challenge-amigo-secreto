@@ -45,7 +45,7 @@ function mostrarLista() {
     }
 }
 
-//ahora falta agregar la función que sortee los nombres en la lista, una función de reinicio, y una para eliminar nombres especificos.
+//ahora falta agregar la función que sortee los nombres en la lista y una función de reinicio.
 
 //Implementa una función para sortear los amigos
 
@@ -61,6 +61,7 @@ function sortearAmigo() {
         setTimeout(() => {
             titulo.innerText = textoOriginalh2;
         }, 2000);
+        return;
      }
      //generar un indice random
      let randomizarIndice = Math.floor(Math.random() * listaDeNombres.length);
@@ -69,4 +70,13 @@ function sortearAmigo() {
      //mostremos el resultado
      let resultado = document.getElementById("resultado")
      resultado.innerHTML = `<li>${amigoSorteado}</li>`;
+}
+//hasta este punto se cumplen las especificaciones del desafío. A continuación, agregare una función de reinicio.
+
+function reiniciarLista() {
+    //vaciamos la lista y elementos
+    listaDeNombres = [];
+    document.getElementById("listaAmigos").innerHTML = "";
+    document.getElementById("resultado").innerHTML = "";
+    document.getElementById("amigo").value = "";
 }
