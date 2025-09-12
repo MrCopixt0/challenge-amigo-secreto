@@ -30,3 +30,16 @@ function agregarAmigo() {
     }
 }
 
+//hasta el momento, todo funciona, pero nada se esta mostrando. Pasemos al siguiente punto.
+
+//Implementa una función para actualizar la lista de amigos
+
+function mostrarLista() {
+    let listaDeAmigos =  document.getElementById("listaAmigos");
+    listaDeAmigos.innerHTML = ""; //limpia la lista para evitar errores de duplicados.
+    for (let a = 0; a < listaDeNombres.length;a++) {
+        const li = document.createElement("li");
+        li.innerText = listaDeNombres[a];
+        listaDeAmigos.appendChild[li];
+    }
+}
