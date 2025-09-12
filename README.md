@@ -2,9 +2,15 @@
 
 Es una aplicación web sencilla para organizar un **sorteo de amigo secreto**. Permite ingresar nombres en una lista, mostrarlos en pantalla y seleccionar al azar un amigo secreto.
 
+# Enlace directo a la página:
+
+- https://MrCopixt0.github.io/challenge-amigo-secreto/
+
+---
 ## Vista previa
 
-![Imagen representativa del proyecto]¨(assets/amigo-secreto.png)
+<img width="2288" height="1272" alt="imagen" src="https://github.com/TnlComputer/alura-G9-Amigo-Secreto/blob/main/portada amigo secreoto.png" />
+<img width="200" height="200" alt="imagen" src="https://github.com/TnlComputer/alura-G9-Amigo-Secreto/blob/main/Insignia%20Challenge%20Sorteo%20Amigo.webp" />
 
 ---
 
