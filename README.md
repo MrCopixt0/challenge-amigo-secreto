@@ -10,7 +10,6 @@ Es una aplicación web sencilla para organizar un **sorteo de amigo secreto**. P
 ## Vista previa
 
 <img width="2288" height="1272" alt="imagen" src="https://github.com/TnlComputer/alura-G9-Amigo-Secreto/blob/main/portada amigo secreoto.png" />
-<img width="200" height="200" alt="imagen" src="https://github.com/TnlComputer/alura-G9-Amigo-Secreto/blob/main/Insignia%20Challenge%20Sorteo%20Amigo.webp" />
 
 ---
 
